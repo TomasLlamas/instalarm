@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>instalarm</title>
+  <meta name="description" content="instalarm">
+  <meta name="author" content="instalarm">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidepanel">
+        <h2>set timer</h2>
+        <button id="00:00:01" class="set">1 second</button>
+        <button id="00:00:30" class="set">30 seconds</button>
+        <button id="00:01:00" class="set">1 minutes</button>
+        <button id="00:05:00" class="set">5 minutes</button>
+        <button id="00:10:00" class="set">10 minutes</button>
+        <button id="00:15:00" class="set">15 minutes</button>
+        <button id="00:30:00" class="set">30 minutes</button>
+        <button id="01:00:00" class="set">1 hour</button>
+        <button id="01:00:00" class="set">2 hours</button>
+        <button id="01:00:00" class="set">3 hours</button>
+    </div>
+
+    <div class="central">
+        <h1>instalarm</h1>
+        <p>time left:</p>
+        <p id="timer">no timer set</p>
+        <button id="stop">stop</button>
+
+        <div class="bottomright">
+            <p>choose alarm sound</p>
+            <select id="select">
+                <option value="funk">funky alarm</option>
+                <option value="astronomia">astronomia</option>
+                <option value="space">outer space</option>
+                <option value="forest">mysterious forest</option>
+            </select>
+        </div>
+
+        <h1 id="birthday">happy birthday dad!</h1>
+
+    </div>
+  </div>
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

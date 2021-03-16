@@ -1,0 +1,83 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidepanel {
+    width: calc(20vw - 20px);
+    height: 100vh;
+    background: #EEEEEE;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.set {
+    width: 100px;
+    padding: 5px;
+    background-color: #CCCCCC;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 6px #999;
+    outline:0;
+}
+
+.set:hover {background-color: #BBBBBB}
+
+.set:active {  background-color: #777777;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.central {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    background-color: #89e5ff;
+    box-shadow: 2px 0 10px 2px #888;
+    position: relative;
+}
+
+#stop {
+    width: 100px;
+    padding: 5px;
+    background-color: #ff5151;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 6px #999;
+    outline:0;
+}
+
+#stop:hover {background-color: #df3e3e}
+
+#stop:active {  background-color: #ab1b1b;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.bottomright {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+#birthday {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
